@@ -1,0 +1,72 @@
+
+body{
+     background-color: skyblue;
+}
+h2{
+
+	text-align: center;
+	color: darkred;
+	font-weight: bold;
+   font-size: 40px;
+   font-family: monospace;
+}
+
+/* Element Selector*/
+p{
+
+	background-color: orange;
+
+	text-align: justify;
+}
+
+
+/*Class Selector*/
+.define{
+	color:blue;
+	background-color: palegoldenrod;
+}
+
+/*ID Selector*/
+#word{
+
+   background-color:violet;
+}
+
+/*Child Selector*/
+ul > li{
+	color: green;
+}
+
+/*Group Selector*/
+
+h4,pre{
+	color: white ;
+	background-color:black;
+	
+}
+
+/*Pseudo Element*/
+ p::first-letter
+ {
+ 	color: red;
+ 	font-size: 40px;
+ }
+
+
+ /*pseudo class*/
+ h3:hover{
+
+ 	color: blue;
+ }
+ h1:hover{
+ 	background-color: brown;
+ }
+
+ [class^='left']
+
+ {
+   color: red;
+
+ }
+
+ 
